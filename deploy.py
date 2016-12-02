@@ -26,8 +26,8 @@ if webfaction.checkSite():
 		webfaction.gitPull()
 		print "Pull successful"
 		print "Building Site..."
-		webfaction.npmInstall()
-		webfaction.buildSite()
+		#webfaction.npmInstall()
+		#webfaction.buildSite()
 		print "Build successful"
 	sys.exit()
 
