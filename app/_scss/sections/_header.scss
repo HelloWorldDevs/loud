@@ -47,27 +47,35 @@
 }
 
 #header.full-header {
+  font-family: $ff-lato;
   #primary-menu-trigger {
     font-size: 30px;
     pointer-events: auto;
   }
-  & #header-wrap {
-    background-color: $c-white;
+  #header-wrap {
+    //background-color: $c-clear;
   }
-  & #logo {
+  #logo {
     padding-right: 0;
     margin-right: 0px;
     border-right: none;
   }
 
-  & #primary-menu > ul {
+  #primary-menu > ul {
     margin-right: 0;
     border-right: none;
 
-    @include nav-color($c-grey);
+    @include nav-color($c-grey-nav);
     @include nav-color($c-brick, 1);
-    @include nav-color($c-blue, 2);
-    @include nav-color($c-teal, 3);
+    @include nav-color($c-dark-purple, 2);
+    @include nav-color($c-purple, 3);
+  }
+  
+  //when you scroll down
+  &.sticky-header {
+    #header-wrap {
+      background-color: $c-nav-background;
+    }
   }
   
 }
