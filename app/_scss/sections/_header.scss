@@ -47,6 +47,9 @@
 }
 
 #header.full-header {
+
+  position: absolute;
+  width: 100%;
   font-family: $ff-lato;
   #primary-menu-trigger {
     font-size: 30px;
@@ -54,6 +57,7 @@
   }
   #header-wrap {
     //background-color: $c-clear;
+    border-bottom: 0;
   }
   #logo {
     padding-right: 0;
@@ -74,7 +78,7 @@
   //when you scroll down
   &.sticky-header {
     #header-wrap {
-      background-color: $c-nav-background;
+      //background-color: $c-nav-background;
     }
   }
   
