@@ -3,15 +3,15 @@
 
   .text {
     font-family: $ff-open;
-    color: $c-dark-brown;
+    color: $c-darkish-purple;
   }
 
   .phone-number {
     font-family: $ff-lato;
-    color: $c-dark-brown;
+    color: $c-darkish-purple;
     font-weight: 900;
     a:hover {
-      color: $c-dark-brown !important;
+      color: $c-darkish-purple !important;
       text-decoration: none;
     }
     &:hover {
@@ -83,7 +83,7 @@
 
   //Custom break line color for Paquette
   &.phone-slab-2 {
-    background-color: $c-teal-lighter;
+    //background-color: $c-teal-lighter;
     &__left {
       margin-top: 0;
       @media screen and (max-width: $width-md) {
