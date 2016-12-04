@@ -71,7 +71,7 @@
   // });
   //
   $('.js-video-carousel').owlCarousel({
-    items: 4,
+    items: 3,
     loop: true,
     autoplay: true,
     autoplaySpeed: 400,
@@ -83,16 +83,16 @@
       '<img src="assets/chevron.png" alt="nav arrow"></img>',
       '<img src="assets/chevron.png" alt="nav arrow"></img>'
     ],
-    margin: 20,
+    margin: 40,
     responsive: {
       480: {
-        items: 2
+        items: 1
       },
       768: {
-        items: 3
+        items: 2
       },
       992: {
-        items: 4
+        items: 3
       }
     }
   });
@@ -110,7 +110,7 @@
       '<img src="assets/chevron.png" alt="nav arrow"></img>',
       '<img src="assets/chevron.png" alt="nav arrow"></img>'
     ],
-    margin: 20,
+    margin: 40,
     responsive: {
       768: {
         items: 2
