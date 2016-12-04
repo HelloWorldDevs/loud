@@ -1,22 +1,24 @@
 #section-specials {
 
   .container-wrapper {
-    background-image: url('/assets/specials-bg.jpg');
+    background-image: url('../../assets/flower-specials-bg.jpg');
     @include parallax-background;
     padding-top: $spacing-lg;
   }
 
   .heading {
+    background-color: $c-darkish-purple;
     padding-bottom: $spacing-md;
     padding-top: $spacing-md;
     h2 {
-      color: $c-blue-2;
+      font-family: $ff-roboto-condensed;
+      color: $c-white;
       margin-bottom: 0;
       line-height: $lh-sm;
       font-weight: 600;
     }
     h3 {
-      color: $c-yellow;
+      color: $c-white;
       font-family: $ff-open;
       margin-bottom: 0;
       line-height: $lh-sm;
@@ -25,11 +27,11 @@
   }
 
   .card {
-    background-color: rgba($c-white, 0);
+    background-color: rgba($c-white, 0.75);
     text-align: center;
     height: 100%;
-    border-radius: $spacing-sm;
-    color: $c-white;
+    border-radius: 0.1px;
+    color: $c-darkish-purple;
 
 
     .top {
@@ -62,7 +64,7 @@
       h3 {
 
         font-family: $ff-lato;
-        color: $c-white;
+        color: $c-darkish-purple;
         margin-bottom: 0;
         line-height: $lh-xs;
         padding-top: $spacing-md;
@@ -75,16 +77,17 @@
     .bottom {
       h6:first-child {
         padding-top: $spacing-md;
+        color: $c-darkish-purple;
       }
       .copy {
         font-family: $ff-open;
         padding-left: $spacing-sm;
         padding-right: $spacing-sm;
-        color: $c-white;
+        color: $c-darkish-purple;
       }
       p {
         padding-bottom: $spacing-md;
-        color: $c-white;
+        color: $c-darkish-purple;
       }
     }
   }
