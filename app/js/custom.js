@@ -70,23 +70,54 @@
   //   }
   // });
   //
-  // var $tourModalCarousel = $('.tour-carousel-2');
-  // $tourModalCarousel.owlCarousel({
-  //   items: 1,
-  //   loop: true,
-  //   autoplay: true,
-  //   autoplaySpeed: 400,
-  //   autoplayTimeout: 6000,
-  //   autoplayHoverPause:true,
-  //   nav: true,
-  //   dots: false,
-  //   navText: [
-  //     '<img src="assets/chevron.png" alt="nav arrow"></img>',
-  //     '<img src="assets/chevron.png" alt="nav arrow"></img>'
-  //   ],
-  //   margin: 0
-  // });
-  //
+  $('.js-video-carousel').owlCarousel({
+    items: 4,
+    loop: true,
+    autoplay: true,
+    autoplaySpeed: 400,
+    autoplayTimeout: 6000,
+    autoplayHoverPause:true,
+    nav: true,
+    dots: false,
+    navText: [
+      '<img src="assets/chevron.png" alt="nav arrow"></img>',
+      '<img src="assets/chevron.png" alt="nav arrow"></img>'
+    ],
+    margin: 20,
+    responsive: {
+      480: {
+        items: 2
+      },
+      768: {
+        items: 3
+      },
+      992: {
+        items: 4
+      }
+    }
+  });
+
+  $('.js-review-carousel').owlCarousel({
+    items: 1,
+    loop: true,
+    autoplay: true,
+    autoplaySpeed: 400,
+    autoplayTimeout: 6000,
+    autoplayHoverPause:true,
+    nav: true,
+    dots: false,
+    navText: [
+      '<img src="assets/chevron.png" alt="nav arrow"></img>',
+      '<img src="assets/chevron.png" alt="nav arrow"></img>'
+    ],
+    margin: 20,
+    responsive: {
+      768: {
+        items: 2
+      }
+    }
+  });
+
   $('.js-certificate-carousel').owlCarousel({
     items: 1,
     loop: true,
