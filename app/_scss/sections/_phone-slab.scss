@@ -7,7 +7,7 @@
   }
 
   .phone-number {
-    font-family: $ff-lato;
+    font-family: $ff-roboto-condensed;
     color: $c-darkish-purple;
     font-weight: 900;
     a:hover {
@@ -58,6 +58,7 @@
     padding-bottom: $spacing-sm;
   }
   &__left {
+    border-right: solid 2px #B7A3C8;
     text-align: right;
     margin-top: 5px;
     @media screen and (max-width: $width-md) {
