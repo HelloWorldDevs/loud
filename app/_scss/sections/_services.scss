@@ -51,8 +51,28 @@
 
   .services-grid {
     background-color: $c-light-pink;
+    padding-top: $spacing-md;
+    padding-bottom: $spacing-md;
+
     a {
       @include link-color($c-darkish-purple);
+      &.learn-more {
+        text-decoration: underline !important;
+        @include link-color($c-blackish);
+      }
+    }
+    h4 {
+      font-family: $ff-roboto-condensed;
+      font-weight: 700;
+      margin-bottom: 0;
+    }
+    .service-image {
+      @include hover-plus;
+      margin-bottom: $spacing-sm;
+    }
+
+    .row>div {
+      padding: $spacing-sm;
     }
 
   }
