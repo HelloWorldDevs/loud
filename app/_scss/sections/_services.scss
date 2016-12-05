@@ -76,4 +76,27 @@
     }
 
   }
+
+  .service-modal-wrapper {
+    & .modal-title {
+      @include h3;
+      font-family: $ff-lato;
+      font-weight: 700;
+      color: $c-darkish-purple;
+      padding-top: 10px;
+    }
+    & p {
+      color: $c-darkish-purple;
+      padding-bottom: 15px;
+    }
+    .modal-image {
+      text-align: center;
+    }
+    img {
+      max-width: 270px;
+      padding-bottom: 20px;
+    }
+  }
+
+
 }
