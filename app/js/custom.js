@@ -71,7 +71,7 @@
   // });
   //
   $('.js-video-carousel').owlCarousel({
-    items: 3,
+    items: 1,
     loop: true,
     autoplay: true,
     autoplaySpeed: 400,
