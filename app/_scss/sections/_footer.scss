@@ -1,8 +1,11 @@
 //Overrides for Canvas
 #footer {
   position: relative;
-  background-color: $c-blue-8;
+  background-color: $c-darker-purple;
   border-top: none;
+  a {
+    @include link-color($c-white);
+  }
   p {
     font-weight: 100;
     font-size: 14px;
