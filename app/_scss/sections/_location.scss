@@ -1,39 +1,37 @@
 .location-card {
   background: $c-white;
   margin: 30px 0;
-  border-radius: 10px;
+  border-radius: 0.1px;
+  font-family: $ff-lato;
   @media (max-width: $width-md) {
     margin-bottom: 5px;
     margin-top: 0px;
     background-color: rgba(255, 255, 255, 0);
   }
-  &__bottom {
-    background-color: #7BD1EA;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-  }
   img {
     padding-top: $spacing-md;
     padding-bottom: $spacing-sm;
+    padding-left: $spacing-sm;
+    padding-right: $spacing-sm;
   }
   h6 {
-    font-family: $ff-open;
-    color: $c-grey-location;
+    color: $c-darker-purple;
     margin-bottom: 0;
     line-height: $lh-sm;
   }
   a>h6 {
     font-family: $ff-open;
-    color: $c-blue-6;
+    color: $c-darkish-purple;
     padding-bottom: $spacing-md;
   }
   .phone-number {
     line-height: $lh-sm;
-    color: $c-dark-brown;
-    font-family: $ff-lato;
+    color: $c-darkish-purple;
+    font-family: $ff-roboto-condensed;
     font-weight: 900;
+    margin-bottom: 0;
     a:hover {
-      color: $c-dark-brown !important;
+      color: $c-darkish-purple !important;
       text-decoration: none;
     }
     &:hover {
@@ -41,6 +39,7 @@
     }
   }
   .btn {
+    margin-top: $spacing-md;
     margin-bottom: $spacing-sm;
   }
   h6:last-child {
@@ -79,10 +78,11 @@
 }
 
 .hours-table {
-  color: $c-grey-location;
+  //color: $c-grey-location;
   padding-bottom: $spacing-md;
   h5 {
-    color: $c-dark-brown;
+    color: $c-darkish-purple;
+    
     font-family: $ff-lato;
     font-weight: 900;
     margin-bottom: 0;
@@ -109,7 +109,7 @@
 
 
 #google-map5 {
-  height: 1000px;
+  height: 820px;
   @media (max-width: $width-md) {
     height: 300px;
   }
