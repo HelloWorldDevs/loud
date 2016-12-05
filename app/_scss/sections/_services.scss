@@ -48,4 +48,12 @@
       }
     }
   }
+
+  .services-grid {
+    background-color: $c-light-pink;
+    a {
+      @include link-color($c-darkish-purple);
+    }
+
+  }
 }

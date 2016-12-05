@@ -73,3 +73,13 @@
     background-color: rgba(0, 0, 0, 0.37);
   }
 }
+
+/// Set Link Color - sets the color of a link, and its hover state
+/// @group style
+/// @param $color
+@mixin link-color($color) {
+  color: $color;
+  &:hover {
+    color: $color;
+  }
+}
