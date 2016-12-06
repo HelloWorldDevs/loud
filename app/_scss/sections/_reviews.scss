@@ -1,5 +1,6 @@
 #section-reviews {
   background-image: url('/assets/reviews-background.jpg');
+  background-attachment: fixed;
   @include parallax-background;
 
   .heading {
@@ -32,6 +33,9 @@
         i {
           color: $c-star-2;
           font-size: 32px;
+          @media screen and (max-width: $width-sm) {
+            font-size: 24px;
+          }
         }
       }
       .review {

@@ -6,10 +6,10 @@
     background-image: url('/assets/loud-slide1-BG.jpeg');
   }
   .swiper-slide.slide2 {
-    background-image: url('/assets/loud-slide2-BG.jpeg');
+    background-image: url('/assets/loud-slide3-BG.jpeg');
   }
   .swiper-slide.slide3 {
-    background-image: url('/assets/loud-slide3-BG.jpeg');
+    background-image: url('/assets/loud-slide2-BG.jpeg');
   }
 
   .swiper-slide .row {
@@ -21,14 +21,14 @@
   .slide1 {
     h4 {
       line-height: $lh-sm;
-      //color: $c-dark-brown;
+      color: $c-darkish-purple;
       font-family: $ff-lato;
     }
 
   }
   .slide2 {
     h3 {
-      //color: $c-grey-brown;
+      color: $c-darkish-purple;
       font-weight: 700;
       margin-bottom: 0;
       font-family: $ff-lato;
@@ -44,7 +44,7 @@
     }
     h5 {
       font-family: $ff-lato;
-      //color: $c-grey-brown;
+      color: $c-darkish-purple;
       margin-bottom: 0;
       line-height: $lh-lg;
       margin-right: $spacing-sm;
@@ -63,17 +63,19 @@
   }
   .slide3 {
     h1 {
-      //color: $c-dark-brown;
+      color: $c-darkish-purple;
       margin-bottom: 0;
+      font-weight: 700;
+      font-family: $ff-roboto-condensed;
       line-height: $lh-sm;
     }
     h2 {
-      //color: $c-dark-brown;
+      color: $c-brick;
       line-height: $lh-sm;
       font-family: $ff-lato;
     }
     h4 {
-      //color: $c-dark-brown;
+      color: $c-darkish-purple;
       font-weight:bold;
       font-family: $ff-lato;
       line-height: $lh-sm;

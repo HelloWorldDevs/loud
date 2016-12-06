@@ -82,7 +82,7 @@
   padding-bottom: $spacing-md;
   h5 {
     color: $c-darkish-purple;
-    
+    text-transform: capitalize;
     font-family: $ff-lato;
     font-weight: 900;
     margin-bottom: 0;
@@ -95,7 +95,7 @@
   }
 
   td {
-    text-align: right;
+    text-align: center;
   }
 
   table {
