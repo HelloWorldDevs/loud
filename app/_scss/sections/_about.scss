@@ -16,6 +16,12 @@
     color: $c-darkish-purple;
     font-weight: 400;
   }
+  p:last-child {
+    margin-bottom: $spacing-xxl;
+    @media screen and (min-width: $width-lg) {
+      margin-bottom: 100px;
+    }
+  }
 
   .bio-image {
     position: absolute;
@@ -23,7 +29,7 @@
     width: 42%;
     text-align: center;
     img {
-      max-height: 400px;
+      max-height: 600px;
     }
 
     @media screen and (max-width: $width-sm) {

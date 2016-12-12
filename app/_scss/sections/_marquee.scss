@@ -91,12 +91,18 @@
     color: $c-star;
   }
 
+  .arrow-down--wrapper {
+    height: 20px;
+  }
+
 }
 
-.animated.infinite.bounce {
+.animated.infinite {
   position: absolute;
   left: 50%;
   bottom: 20px;
+  z-index: 999;
+  color: $c-darkish-purple;
 }
 
 .icon-arrow-down {
