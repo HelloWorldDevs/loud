@@ -46,11 +46,27 @@
   }
 }
 
+/// Sticky Header - in case the header sticky has been edited in canvas, this is the original code that will stick your header to the top
+/// @group effect
+/// @example body { @include sticky-nav(); }
+@mixin sticky-nav() {
+  #header.sticky-header #header-wrap {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+}
+
+
 #header.full-header {
 
-  position: absolute;
+  //position: absolute;
   width: 100%;
   font-family: $ff-lato;
+
+  background-color: rgba($c-white,0);
   #primary-menu-trigger {
     font-size: 30px;
     pointer-events: auto;
@@ -78,7 +94,7 @@
   //when you scroll down
   &.sticky-header {
     #header-wrap {
-      //background-color: $c-nav-background;
+      background-color: $c-white;
     }
   }
 
@@ -95,7 +111,7 @@
       color: $c-darkish-purple;
     }
     #primary-menu .show {
-      background-color: rgba($c-light-pink, 0.85);
+      background-color: $c-white;
     }
   }
   

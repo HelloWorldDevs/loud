@@ -1,8 +1,9 @@
 #slider {
   height: 50vw;
   max-height: 800px;
+  margin-top: -100px;
 
-  .swiper-slide.slide1 {
+.swiper-slide.slide1 {
     background-image: url('/assets/loud-slide1-BG.jpeg');
   }
   .swiper-slide.slide2 {
