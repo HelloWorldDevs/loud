@@ -46,7 +46,7 @@
 
   new Swiper('.swiper-container', {
     speed: 400,
-    autoplay: false,
+    autoplay: 6000,
     loop: true,
     autoplayDisableOnInteraction: false
   });
@@ -156,7 +156,6 @@
     reviewBundle.push(  new YT.Player('review-video6', {})  );
     reviewBundle.push(  new YT.Player('review-video7', {})  );
     reviewBundle.push(  new YT.Player('review-video8', {})  );
-    console.log(reviewBundle);
     $('.js-review-modal').on('hide.bs.modal', function() {
       reviewBundle.forEach(function(player) {
         player.stopVideo();
