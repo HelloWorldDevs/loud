@@ -16,6 +16,9 @@
   .video-item {
     @include hover-plus;
     border: solid white 2px;
+    a {
+      display: block;
+    }
   }
 
   .js-video-carousel {
