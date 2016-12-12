@@ -58,7 +58,7 @@
     autoplay: true,
     autoplaySpeed: 400,
     autoplayTimeout: 6000,
-    autoplayHoverPause:true,
+    autoplayHoverPause:false,
     nav: true,
     dots: false,
     navText: [

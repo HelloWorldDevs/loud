@@ -29,6 +29,9 @@ a.si-facebook {
     float: none;
     margin-right: 0;
   }
+  &:hover {
+    text-decoration: none;
+  }
 }
 
 .icon-facebook {
@@ -80,6 +83,9 @@ a.si-yelp {
   margin-right: 20px;
   @media (max-width: $width-md) {
     float: none;
+  }
+  &:hover {
+    text-decoration: none;
   }
 }
 

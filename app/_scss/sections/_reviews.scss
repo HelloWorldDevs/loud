@@ -43,6 +43,9 @@
       }
       .review {
         color: $c-darker-purple;
+        @media screen and (max-width: $width-sm) {
+          p {line-height: 1.1;}
+        }
       }
     }
 
